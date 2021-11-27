@@ -45,7 +45,7 @@ void drawchart(dict values[], int row_count){
         svg_fill(psvg, "none");
         svg_line(psvg, "#000000", 1, 150, 30, 150, 380);
         
-        svg_text(psvg, -250, 80, "sans-serif", 14, "#000000", "#000000", "Car models", "rotate");
+        svg_text(psvg, -250, 80, "sans-serif", 14, "#000000", "#000000", "Laps", "rotate");
         
         int space = 560/(row_count+2);
         int x = 130;
@@ -92,7 +92,7 @@ void drawchart(dict values[], int row_count){
         }
         
         svg_line(psvg, "#000000", 1, 150, 380, 600, 380);
-        svg_text(psvg, 605, 380, "sans-serif", 14, "#000000", "#000000", "Race","");
+        svg_text(psvg, 605, 380, "sans-serif", 14, "#000000", "#000000", "Team","");
         svg_finalize(psvg);
         svg_save(psvg, "charts.svg");
         svg_free(psvg);
