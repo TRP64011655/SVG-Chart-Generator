@@ -6,7 +6,7 @@
 #include"svg.h"
 
 // --------------------------------------------------------
-// STATIC FUNCTION appendstringtosvg
+// STATIC FUNCTION append string to svg
 // --------------------------------------------------------
 static void appendstringtosvg(svg* psvg, char* text)
 {
